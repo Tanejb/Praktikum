@@ -1,11 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Footer from './modules/canvas/footer';
 
 function App() {
   return (
     <div className="App">
       <h1>Know It</h1>
+      <Footer></Footer>
     </div>
   );
 }
